@@ -16,7 +16,7 @@ struct Point : tiny_traits::PartialOrd<Point> {
         } else if (x > other.x && y > other.y) {
             return tiny_traits::Ordering::Greater;
         }
-        return OptionalOrdering::NotComparable(); // 不可比较
+        return OptionalOrdering::NotComparable(); // not comparable
     }
 };
 

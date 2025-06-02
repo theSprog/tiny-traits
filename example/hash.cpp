@@ -1,5 +1,4 @@
 #include "../include/tiny_traits.hpp"
-#include <string>
 #include <unordered_map>
 
 using namespace tiny_traits;
@@ -25,10 +24,10 @@ int main() {
     Point p1{1, 2};
     Point p2{2, 3};
 
-    // mp[p1] = "p1";
-    // mp[p2] = "p2";
+    mp[p1] = "p1";
+    mp[p2] = "p2";
 
-    // std::cout << mp[p1] << std::endl;
-    // std::cout << mp[p2] << std::endl;
+    std::cout << mp[p1] << std::endl;
+    std::cout << mp[p2] << std::endl;
     return 0;
 }
